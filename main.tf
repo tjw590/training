@@ -19,7 +19,7 @@
 #
 terraform {
   backend "atlas" {
-    name = "tjw590/training"
+    name = "tjw590/training
   }
 }
 
