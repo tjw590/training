@@ -50,9 +50,7 @@ resource "aws_instance" "web" {
   count                  = "${var.maxcount}"
 
   tags {
-    "Identityi"  = "terraform-training-rabbit"
-    "Identityi1" = "tim-training-rabbit"
-    "Identityi2" = "Wood-training-rabbit"
+    "Identity"  = "terraform-training-rabbit"
     "Name"       = "WebServer_${count.index + 1}_of_${var.maxcount}"
   }
 }
