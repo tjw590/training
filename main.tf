@@ -32,7 +32,7 @@ variable "aws_region" {
 }
 
 variable "maxcount" {
-  default = "3"
+  default = "1"
 }
 
 provider "aws" {
